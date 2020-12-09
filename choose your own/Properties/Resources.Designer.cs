@@ -61,12 +61,30 @@ namespace choose_your_own.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _1_person_cheering_Jett_Rifkin_1851518140 {
+            get {
+                return ResourceManager.GetStream("_1_person_cheering_Jett_Rifkin_1851518140", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
         internal static System.Drawing.Bitmap bleeeding {
             get {
                 object obj = ResourceManager.GetObject("bleeeding", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream Evil_Laugh_1_Timothy_64737261 {
+            get {
+                return ResourceManager.GetStream("Evil_Laugh_1_Timothy_64737261", resourceCulture);
             }
         }
         

@@ -138,5 +138,11 @@
   <ItemGroup>
     <None Include="Resources\lose.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Evil_Laugh_1-Timothy-64737261.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1_person_cheering-Jett_Rifkin-1851518140.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
