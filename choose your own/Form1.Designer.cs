@@ -1,6 +1,6 @@
 ﻿namespace choose_your_own
 {
-    partial class Form1
+    partial class chooseYourOwn
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(chooseYourOwn));
             this.outputLabel = new System.Windows.Forms.Label();
             this.greenButtonOutputLabel = new System.Windows.Forms.Label();
             this.redButtonOutputLabel = new System.Windows.Forms.Label();
@@ -93,7 +93,7 @@
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
-            // Form1
+            // chooseYourOwn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -105,8 +105,9 @@
             this.Controls.Add(this.redButtonOutputLabel);
             this.Controls.Add(this.greenButtonOutputLabel);
             this.Controls.Add(this.outputLabel);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "chooseYourOwn";
+            this.Text = "Choose Your Own Adventure";
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

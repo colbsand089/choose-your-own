@@ -15,10 +15,10 @@ using System.Media;
 
 namespace choose_your_own
 {
-    public partial class Form1 : Form
+    public partial class chooseYourOwn : Form
     {
         int scene = 1;
-        public Form1()
+        public chooseYourOwn()
         {
             InitializeComponent();
         }
